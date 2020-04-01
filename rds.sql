@@ -5,7 +5,7 @@ select * from dba_directories;
 --As normal user:
 select * from all_directories;
 
-
+testee
 --Criar diretório
 begin
  rdsadmin.rdsadmin_util.create_directory(p_directory_name => 'DIRETORIO');
